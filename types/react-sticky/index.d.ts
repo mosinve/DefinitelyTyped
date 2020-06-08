@@ -26,9 +26,9 @@ export interface StickyProps {
     relative?: boolean;
     isActive?: boolean;
     className?: string;
-    style?: any;
+    style?: React.CSSProperties;
     stickyClassName?: string;
-    stickyStyle?: any;
+    stickyStyle?: React.CSSProperties;
     topOffset?: number;
     bottomOffset?: number;
     onStickyStateChange?(isSticky: boolean): void;
